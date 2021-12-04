@@ -17,15 +17,34 @@ const questions = [
             }
         }
     },
+    // DESCRIPTION
     {
-        type: 'confirm',
-        name: 'confrimAbout',
-        message: 'Would you like to enter "installation instructions" or a link to a video?',
-        default: true
-        
+        type: 'input',
+        name: 'Description',
+        message: 'Please put a description of your project',
     },
+    // INSTALLATION
+    {
+        type: 'input',
+        name: 'Installiation',
+        message: 'Please enter "installation instructions"' 
+    },
+    // USAGE
+    {
+        type: 'input',
+        name: 'Usage',
+        message: 'Please enter what the app is used for' 
+    },
+    // CONTRIBUTORS
+    {
+        type: 'input',
+        name: 'Contributors',
+        message: 'Please enter who contributed' 
+    },
+    // LICENSE
     {
         type: 'confirm',
+        name: 'License',
         message: 'What kind of license does your project have?',
         choices: [
             'APACHE 2.0',
@@ -35,9 +54,10 @@ const questions = [
             'NONE'
         ],
     },
+    // GITHUB USERNAME
     {
         type: 'input',
-        name: 'title',
+        name: 'Users GitHub',
         message: 'Please enter your GitHub Username',
         validate: usernameInput => {
             if(usernameInput) {
@@ -49,6 +69,7 @@ const questions = [
         }
         
     },
+    // EMAIL ADDRESS
     {
         type: 'input',
         name: 'title',
