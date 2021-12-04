@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title of your repository?',
+        message: 'Title of your repository? (Required)',
         validate: titleInput => {
             if (titleInput) {
                 return true
@@ -37,9 +37,16 @@ const questions = [
     },
     // CONTRIBUTORS
     {
+        type: 'confirm',
+        name: 'confirmAbout',
+        message: 'Would you like to add any Contributors?',
+        default: true
+    },
+    {
         type: 'input',
-        name: 'Contributors',
-        message: 'Please enter who contributed' 
+        name: 'about',
+        message: 'Please provide who contributed',
+        when: ({confirmAbout}) => confirmAbout
     },
     // LICENSE
     {
