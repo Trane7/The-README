@@ -1,0 +1,22 @@
+{
+  "name": "the-readme",
+  "version": "1.0.0",
+  "description": "README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trane7/The-README.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trane7/The-README/issues"
+  },
+  "homepage": "https://github.com/Trane7/The-README#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
