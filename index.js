@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const fileGenerator = require('fileGenerator')
+const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs')
 const inquirer = require('inquirer')
 // TODO: Create an array of questions for user input
@@ -7,12 +7,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title of your repository? (Required)',
+        message: 'Title of your Project? (Required)',
         validate: titleInput => {
             if (titleInput) {
                 return true
             } else {
-                console.log('Please enter your repository name!')
+                console.log('Please enter your project name!')
                 return false
             }
         }
@@ -21,13 +21,13 @@ const questions = [
     {
         type: 'input',
         name: 'Description',
-        message: 'Please put a description of your project',
+        message: 'Please put a description of your project:',
     },
     // INSTALLATION
     {
         type: 'input',
         name: 'Installiation',
-        message: 'Please enter "installation instructions"' 
+        message: 'Please enter "installation instructions":' 
     },
     // USAGE
     {
@@ -45,14 +45,14 @@ const questions = [
     {
         type: 'input',
         name: 'about',
-        message: 'Please provide who contributed',
+        message: 'Please provide who contributed:',
         when: ({confirmAbout}) => confirmAbout
     },
     // LICENSE
     {
-        type: 'confirm',
-        name: 'License',
-        message: 'What kind of license does your project have?',
+        type: 'checkbox',
+        name: 'licenses',
+        message: 'What kind of license does your project have? (Click all that apply)',
         choices: [
             'APACHE 2.0',
             'BSD 3',
@@ -60,14 +60,24 @@ const questions = [
             'MIT',
             'NONE'
         ],
+        validate: userInput => {
+            if(userInput.includes('NONE') && userInput.length > 1) {
+                console.log('NONE can only be standalone');
+            }
+            if(userInput) {
+                return true
+            } else {
+                console.log('You have to choose one, if none please select "NONE"');
+            }
+        }
     },
     // GITHUB USERNAME
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'userName',
         message: 'Please enter your GitHub Username',
-        validate: usernameInput => {
-            if(usernameInput) {
+        validate: userNameInput => {
+            if(userNameInput) {
                 return true
             } else {
                 console.log('Please enter your GitHub Username!')
@@ -93,13 +103,27 @@ const questions = [
     }
 ];
 
+const promptUser = () => {
+    return inquirer.prompt(questions)
+}
+
 // TODO: Create a function to write README file
-function writeToFile(fileGenerator, response) {
+function writeToFile(gene, response) {
 
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    return promptUser()
+    .then(readMeData => {
+        console.log(generateMarkdown(readMeData)); 
+    })
+    .catch(err => {
+        console.log(err);
+    })
+}
 
 // Function call to initialize app
 init();
+
+
