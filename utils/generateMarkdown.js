@@ -54,6 +54,15 @@ function generateMarkdown(response) {
   * [Licenses](#License)
   
   
+  ## Test Instructions
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  1. Ensure that your application includes the require dependacies, by typing the commnd in your integrated terminal "npm install inquirer".
+
+  2. Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
+
+  3. Run “node [fileName].js”
+  
+
   ##Installation Instructions
   ###### [Back to Table of Contents](#Table-of-Contents)
   ${response.installiation}
