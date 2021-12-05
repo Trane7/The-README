@@ -64,14 +64,12 @@ function generateMarkdown(response) {
 
   ### Contribution Guidelines
   ###### [Back to Table of Contents](#Table-of-Contents)
-  ${response.contribute}
+  ${response.contributors}
   
 
   ${renderLicenseSection(response.licenses)}
   ###### [Back to Table of Contents](#Table-of-Contents)
 
-  ### Screenshots (Building this application)
-  ###### [Back to Table of Contents](#Table-of-Contents)
   
   `
 

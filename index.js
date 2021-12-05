@@ -33,7 +33,7 @@ const questions = [
     // DESCRIPTION
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please put a description of your project (Required):',
     },
     // INSTALLATION
@@ -46,7 +46,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please state what the app is used for:' 
+        message: 'Please explain what the app is used for:' 
     },
     // CONTRIBUTORS
     {
