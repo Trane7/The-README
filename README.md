@@ -1,6 +1,7 @@
-# the readme
-  ##### [dsfsfsfs](undefined) [Email Me](undefined)
+# THE Readme
+  ##### [Trane7](undefined) [Email Me](undefined)
  
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   
   
@@ -14,27 +15,24 @@
   * [Licenses](#License)
   
   
+  ##Installation Instructions
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  Please click link to video on how to install 
+
+  ## Usage Info!
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  This app is to help the user make a professional readme
 
   ### Contribution Guidelines
   ###### [Back to Table of Contents](#Table-of-Contents)
   undefined
   
-  
-  ## Test Instructions
+
+   ## License
+  APACHE 2.0, MIT
   ###### [Back to Table of Contents](#Table-of-Contents)
 
-  
-  
-  ## Overview: What We Accomplished!
-  ### Workflow [Back to Table of Contents](#Table-of-Contents)
-  undefined
-  
-  
   ### Screenshots (Building this application)
   ###### [Back to Table of Contents](#Table-of-Contents)
-
-  
-  ## License
-    APACHE 2.0
   
   

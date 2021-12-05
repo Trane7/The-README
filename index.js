@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title of your Project? (Required)',
+        message: 'What is the title of your Project? (Required)',
         validate: titleInput => {
             if (titleInput) {
                 return true
@@ -17,11 +17,24 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub Repo for this project? (Required)',
+        validate: titleInput => {
+            if (titleInput) {
+                return true
+            } else {
+                console.log('Please enter your project repo link!')
+                return false
+            }
+        }
+    },
     // DESCRIPTION
     {
         type: 'input',
         name: 'Description',
-        message: 'Please put a description of your project:',
+        message: 'Please put a description of your project (Required):',
     },
     // INSTALLATION
     {
@@ -33,7 +46,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please enter what the app is used for' 
+        message: 'Please state what the app is used for:' 
     },
     // CONTRIBUTORS
     {
@@ -45,7 +58,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributors',
-        message: 'Please provide who contributed:',
+        message: 'Please provide contributors:',
         when: ({confirmContributors}) => confirmContributors
     },
     // LICENSE
@@ -89,7 +102,7 @@ const questions = [
     // EMAIL ADDRESS
     {
         type: 'input',
-        name: 'title',
+        name: 'email',
         message: 'Please enter your Email Address',
         validate: emailInput => {
             if(emailInput) {

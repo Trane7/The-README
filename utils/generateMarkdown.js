@@ -38,13 +38,13 @@ function renderLicenseSection(licenses) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}
-  ##### [${response.userName}](${response.GitHub}) [Email Me](${response.email})
+  ##### [${response.userName}](${response.github}) [Email Me](${response.email})
  
   ${response.licenses.map(license => renderLicenseBadge(license))}
   
   
   
-  # Repository Description
+  # Repository/Project Description
   ${response.description}
 
   ## Table of Contents
