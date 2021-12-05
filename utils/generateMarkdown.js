@@ -51,27 +51,24 @@ function generateMarkdown(response) {
   * [Licenses](#License)
   
   
+  ##Installation Instructions
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  ${response.installiation}
+
+  ## Usage Info!
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  ${response.usage}
 
   ### Contribution Guidelines
   ###### [Back to Table of Contents](#Table-of-Contents)
   ${response.contribute}
   
-  
-  ## Test Instructions
+
+  ${renderLicenseSection(response.licenses)}
   ###### [Back to Table of Contents](#Table-of-Contents)
 
-  
-  
-  ## Overview: What We Accomplished!
-  ### Workflow [Back to Table of Contents](#Table-of-Contents)
-  ${response.accomplish}
-  
-  
   ### Screenshots (Building this application)
   ###### [Back to Table of Contents](#Table-of-Contents)
-
-  
-  ${renderLicenseSection(response.licenses)}
   
   `
 

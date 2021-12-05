@@ -26,27 +26,27 @@ const questions = [
     // INSTALLATION
     {
         type: 'input',
-        name: 'Installiation',
+        name: 'installiation',
         message: 'Please enter "installation instructions":' 
     },
     // USAGE
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Please enter what the app is used for' 
     },
     // CONTRIBUTORS
     {
         type: 'confirm',
-        name: 'confirmAbout',
+        name: 'confirmContributors',
         message: 'Would you like to add any Contributors?',
         default: true
     },
     {
         type: 'input',
-        name: 'about',
+        name: 'contributors',
         message: 'Please provide who contributed:',
-        when: ({confirmAbout}) => confirmAbout
+        when: ({confirmContributors}) => confirmContributors
     },
     // LICENSE
     {
