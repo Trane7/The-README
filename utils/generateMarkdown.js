@@ -18,7 +18,18 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(licenses) {}
+function renderLicenseLink(licenses) {
+  switch(license) {
+    case 'MIT': 
+      return '(https://opensource.org/licenses/MIT)'
+    case 'BSD 3':
+      return '(https://opensource.org/licenses/BSD-3-Clause)'
+    case 'APACHE 2.0':
+      return '(https://opensource.org/licenses/Apache-2.0)'
+    default:
+      return ''
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -61,7 +72,7 @@ function generateMarkdown(response) {
   2. Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
 
   3. Run “node [fileName].js”
-  
+
 
   ##Installation Instructions
   ###### [Back to Table of Contents](#Table-of-Contents)
@@ -78,7 +89,7 @@ function generateMarkdown(response) {
 
   ${renderLicenseSection(response.licenses)}
   ###### [Back to Table of Contents](#Table-of-Contents)
-
+  "CLICK THE TOP BADGES FOR LICENSE LINKS!"
   
   `
 

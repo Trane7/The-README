@@ -1,21 +1,45 @@
-# THE ReadMe
+# dee
+  ##### [afdsd](jdsk;fj) [Email Me](sfsafsdaf)
+ 
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  
+  
+  # Repository/Project Description
+  safs
+
+  ## Table of Contents
+  * [Installation Instructions](#Install)
+  * [Usage Information](#Usage)
+  * [Contributors](#Contributors)
+  * [Licenses](#License)
+  
+  
+  ## Test Instructions
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  1. Ensure that your application includes the require dependacies, by typing the commnd in your integrated terminal "npm install inquirer".
+
+  2. Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
+
+  3. Run “node [fileName].js”
 
 
-## Description of Repository 
+  ##Installation Instructions
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  sfasfsa
 
-Are you tired of having to build a README from scratch? Are you tired of having to write out all the different sections to match everyone you need to showcase your project?
-Well you are in luck! "THE Readme" is a professional README generator that does the work for you!!! All you have to do is enter the information you want to be displayed and WALLA, you have a professional readme!!
+  ## Usage Info!
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  afasffsafsa
 
-### Screenshots
-![Screenshot readme generator](https://user-images.githubusercontent.com/89409597/144763935-45a6b950-a8fc-4409-a816-da3c87bfec02.png)
+  ### Contributors
+  ###### [Back to Table of Contents](#Table-of-Contents)
+  undefined
+  
 
+   ## License
+  APACHE 2.0, BSD 3, MIT
+  ###### [Back to Table of Contents](#Table-of-Contents)
 
-
-
-#### Walkthrough Video
-https://watch.screencastify.com/v/KQiayxADAenxKUwByToh
-
-
-
-##### Links
-GitHub Repo: https://github.com/Trane7/The-README
+  
+  
