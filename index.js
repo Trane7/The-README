@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const fileGenerator
+const fileGenerator = require('fileGenerator')
 const fs = require('fs')
 const inquirer = require('inquirer')
 // TODO: Create an array of questions for user input
@@ -64,7 +64,7 @@ const questions = [
     // GITHUB USERNAME
     {
         type: 'input',
-        name: 'Users GitHub',
+        name: 'GitHub',
         message: 'Please enter your GitHub Username',
         validate: usernameInput => {
             if(usernameInput) {
@@ -94,7 +94,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileGenerator, response) {
+
+}
 
 // TODO: Create a function to initialize app
 function init() {}

@@ -1,6 +1,6 @@
 function fileGenerator(response) {
     var content = `# ${response.title}
-    ##### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application](https://www.youtube.com/channel/UCzyohHEJNSqklS1bwxmuVaA)
+    ##### [${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application](https://www.youtube.com/channel/UCzyohHEJNSqklS1bwxmuVaA)
     #### ReadMeGenerator© 2021 All Rights Reserved.  ${response.license} All material must be cited or credited, when using material (free to use).
     
     
@@ -15,6 +15,7 @@ function fileGenerator(response) {
     * [Licenses](#License)
     
     
+
     ### Contribution Guidelines
     ###### [Back to Table of Contents](#Table-of-Contents)
     ${response.contribute}
