@@ -6,8 +6,11 @@
 function renderLicenseBadge(license) {
   switch(license) {
     case 'MIT': 
-      return '<img src="https://img.shields.io/badge/license-MIT-brightgreen"'
-    case '':
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    case 'BSD 3':
+      return '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+    case 'APACHE 2.0':
+      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
     default:
       return ''
   }

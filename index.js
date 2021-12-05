@@ -56,7 +56,6 @@ const questions = [
         choices: [
             'APACHE 2.0',
             'BSD 3',
-            'gvl-gpl 3.0',
             'MIT',
             'NONE'
         ],
