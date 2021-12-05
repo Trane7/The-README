@@ -1,6 +1,7 @@
 # THE ReadMe
 
-## Description 
+
+## Description of Repository 
 
 Are you tired of having to build a README from scratch? Are you tired of having to write out all the different sections to match everyone you need to showcase your project?
 Well you are in luck! "THE Readme" is a professional README generator that does the work for you!!! All you have to do is enter the information you want to be displayed and WALLA, you have a professional readme!!
