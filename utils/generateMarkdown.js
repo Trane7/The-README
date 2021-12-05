@@ -62,7 +62,7 @@ function generateMarkdown(response) {
   ###### [Back to Table of Contents](#Table-of-Contents)
   ${response.usage}
 
-  ### Contribution Guidelines
+  ### Contributors
   ###### [Back to Table of Contents](#Table-of-Contents)
   ${response.contributors}
   
