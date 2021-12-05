@@ -1,38 +1,20 @@
-# THE ReadME
-  ##### [Trane7](https://github.com/Trane7/The-README) [Email Me](dg@gmail.com)
- 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
-  
-  
-  # Repository/Project Description
-  undefined
+# THE ReadMe
 
-  ## Table of Contents
-  * [Installation Instructions](#Install)
-  * [Usage Information](#Usage)
-  * [Contributors](#Contributors)
-  * [Licenses](#License)
-  
-  
-  ##Installation Instructions
-  ###### [Back to Table of Contents](#Table-of-Contents)
-  Please follow link:
+## Description 
 
-  ## Usage Info!
-  ###### [Back to Table of Contents](#Table-of-Contents)
-  This app is to help the user generate a professional readme in a faster more efficent way
+Are you tired of having to build a README from scratch? Are you tired of having to write out all the different sections to match everyone you need to showcase your project?
+Well you are in luck! "THE Readme" is a professional README generator that does the work for you!!! All you have to do is enter the information you want to be displayed and WALLA, you have a professional readme!!
 
-  ### Contribution Guidelines
-  ###### [Back to Table of Contents](#Table-of-Contents)
-  undefined
-  
+### Screenshots
+![Screenshot readme generator](https://user-images.githubusercontent.com/89409597/144763935-45a6b950-a8fc-4409-a816-da3c87bfec02.png)
 
-  ## License
-    MIT
-  ###### [Back to Table of Contents](#Table-of-Contents)
 
-  ### Screenshots (Building this application)
-  ###### [Back to Table of Contents](#Table-of-Contents)
-  
-  
+
+
+#### Walkthrough Video
+https://watch.screencastify.com/v/KQiayxADAenxKUwByToh
+
+
+
+##### Links
+GitHub Repo: https://github.com/Trane7/The-README

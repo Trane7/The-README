@@ -123,7 +123,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileContents) {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./README.md', fileContents, err => {
+        fs.writeFile('./PROJECTRM.md', fileContents, err => {
           // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
           if (err) {
             reject(err);
